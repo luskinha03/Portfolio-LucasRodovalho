@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Trispace:wght@300&family=Ubuntu&display=swap');
+
+ul#foto-pc{
+	display: block;
+	list-style: none;
+	float: right;
+	overflow: hidden;
+	position: relative;
+	top: -355px;
+	margin: 0px 60px -500px 0px;
+}
+
+ul#foto-pc li{
+	width: 456px;
+	height: 300px;
+	border: 5px solid black;
+	box-shadow: 1px 1px 5px black;
+	background: url('../imagens/note-cafe.jpg') no-repeat;
+	background-size: 456px 300px;
+}
+
+ul#foto-pc li span{
+	opacity: 0;
+}
+
+ul#skills{
+	display: block;
+	list-style: none;
+	margin-left: 40px;
+	padding: 20px;
+}
+
+ul#skills li{
+	position: relative;
+	display: inline-block;
+	margin: 10px;
+	width: 300px;
+	height: 300px;
+	border: 5px solid black;
+	box-shadow: 1px 1px 5px black;
+}
+
+ul#skills li span{
+	position: absolute;
+	top: 0px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18pt;
+	color: white;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 135px;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+ul#skills li:hover span{
+	opacity: 0.6;
+}
+
+ul#skills li#foto01{
+	background: url('../imagens/html.jpg') no-repeat;
+}
+
+ul#skills li#foto02{
+	background: url('../imagens/css.jpg') no-repeat;
+}
+
+ul#skills li#foto03{
+	background: url('../imagens/javascript.jpg') no-repeat;
+}
+
+ul#skills li#foto01 span{
+	padding-left: 112px;
+}
+ul#skills li#foto02 span{
+	padding-left: 123px;
+}
+ul#skills li#foto03 span{
+	padding-left: 92px;
+}
+
+ul#icones-contatos{
+	display: block;
+	list-style: none;
+	overflow: hidden;
+	position: relative;
+	float: right;
+	margin: -20px 100px -100px 0px;
+}
+
+ul#icones-contatos li{
+	width: 345px;
+	height: 345px;
+	background: url('../imagens/icones-contatos.png') no-repeat;
+	background-size: 345px 345px;
+}
+
+ul#icones-contatos li span{
+	opacity: 0;
+}
